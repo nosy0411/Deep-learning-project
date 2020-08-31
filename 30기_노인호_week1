@@ -1,0 +1,60 @@
+{
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": 3
+  },
+  "orig_nbformat": 2
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# week1 과제"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 과제 1 문제\n",
+    "![과제 1](./week1_1.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 과제 1 해답"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 해답 1\n",
+    "apart = [[101,102,103,104],[201,202,203,204],[301,302,303,304],[401,402,403,404]]\n",
+    "arrears = [101, 203, 301, 404]\n",
+    "for lists in apart:\n",
+    "    for house in lists:\n",
+    "        if house in arrears:\n",
+    "            pass\n",
+    "        else:\n",
+    "            print(f\"Newspaper delivery: {house}\")"
+   ]
+  }
+ ]
+}
