@@ -1,5 +1,5 @@
 # Deep-learning-project
-##딥러닝 프로젝트  
+## 딥러닝 프로젝트  
 
 1. 기초 딥러닝 실습 (tensorflow, keras) : deep learning basic practice
 
